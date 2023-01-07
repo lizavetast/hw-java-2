@@ -6,9 +6,8 @@ public class Main {
         int bonus = add / 100;
         if (add > 1000) {
             bonus = bonus;
-        } else
-            if (add < 1000)
-            { bonus = 0;
+        } else if (add < 1000) {
+            bonus = 0;
         }
 
         int total = account + add + bonus;
