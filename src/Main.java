@@ -4,11 +4,7 @@ public class Main {
         int add = 2000; //сумма пополнения
 
         int bonus = add / 100;
-        if (add > 1000) {
-            bonus = bonus;
-        } else if (add < 1000) {
-            bonus = 0;
-        }
+        if (add < 1000) bonus = 0;
 
         int total = account + add + bonus;
 
